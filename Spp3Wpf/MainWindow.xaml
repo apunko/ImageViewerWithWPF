@@ -1,0 +1,14 @@
+﻿<Window x:Class="Spp3Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="529.965" Width="525">
+    <Grid>
+        <Button x:Name="OpenFileButton" Content="Open File" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="415,10,0,0" Click="OpenFileButton_Click"/>
+        <ScrollViewer x:Name="ImageScroll" HorizontalAlignment="Left" Height="479" Margin="10,10,0,0" VerticalAlignment="Top" Width="386">
+            <Canvas x:Name="ImageCanvas" Height="479" Width="366">
+                <Image x:Name="ImagePanel" Height="461" Width="366"/>
+            </Canvas>
+        </ScrollViewer>
+
+    </Grid>
+</Window>
